@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Expo: start (clear cache)",
+      "type": "shell",
+      "command": "npx expo start -c",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "Expo: fix dependency versions",
+      "type": "shell",
+      "command": "npx expo install --fix",
+      "problemMatcher": []
+    }
+  ]
+}
